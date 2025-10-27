@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chowdeck Foods</title>
+    <link rel="stylesheet" href="chow.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="left">
+          <li class="logo">
+            <img src="logo.png" alt="logo" width="50" height="50" />
+          </li>
+          <li class="loc">
+            <img src="myloc.svg" alt="location" width="30" height="20" />
+            <select name="Enter address" id="address">
+              <option value="Enter address">Enter address</option>
+            </select>
+          </li>
+        </ul>
+        <ul class="right">
+          <li id="search">
+            <!-- <div class="search-bar"><p><img src="searchh.svg" alt="search" width="20" height="20"></p> -->
+            <input name="search" id="search" placeholder="Search Chowdeck..." />
+          </li>
+          <ul class="second">
+            <li>
+              <img src="shopcart.svg" alt="cart" />
+            </li>
+            <li>
+              <img src="myprofile.svg" alt="profile" />
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="explore">
+        <div class="exp-top">
+          <p id="exp-head">Explore Categories</p>
+          <p class="fil">
+            Filter<img src="filters.svg" alt="filter" width="20" height="20" />
+          </p>
+        </div>
+        <div class="categories">
+          <ul class="explore-items">
+            <li class="category">
+              <img src="restaurant.webp" alt="rest" width="40" height="30" />
+              <p>Restaurants</p>
+            </li>
+            <li class="category">
+              <img src="shops.webp" alt="shop" width="40" height="30" />
+              <p>Shops</p>
+            </li>
+            <li class="category">
+              <img src="pharmacy.svg" alt="pharm" width="40" height="30" />
+              <p>Pharmacy</p>
+            </li>
+            <li class="category">
+              <img src="market.webp" alt="local" width="40" height="30" />
+              <p>Local markets</p>
+            </li>
+            <li class="category">
+              <img src="meal.webp" alt="meals" width="40" height="30" />
+              <p>African meals</p>
+            </li>
+            <li class="category">
+              <img src="health.svg" alt="health" width="40" height="30" />
+              <p>Healthy meals</p>
+            </li>
+            <li class="category">
+              <img src="drink.webp" alt="drink" width="40" height="30" />
+              <p>Drinks</p>
+            </li>
+          </ul>
+        </div>
+        <div class="bg">
+          <div style="padding-bottom: 20px">
+            <img
+              src="chow-combo-price.jpeg"
+              alt="green"
+              width="650"
+              height="170"
+            />
+          </div>
+          <div>
+            <img src="RELAY.jpeg" alt="wine" width="650" height="170" />
+          </div>
+        </div>
+      </section>
+      <section class="order">
+        <div class="hp-foods">
+          <p style="font-size: 20px; font-family: sans-serif">
+            Handpicked for you 💚
+          </p>
+        </div>
+        <div class="cat">
+          <div class="card">
+            <img src="shrimp rice" alt="PJ foods" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">PJ Foods</p>
+              <p>
+                4.85 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>INTERCONTINENTAL DISHES</p>
+              <p>PASTRIES</p>
+            </div>
+          </div>
+          <div>
+            <img src="fried rice.jpeg" alt="cafe" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Hot Bread Cafe-Ojo</p>
+              <p>
+                4.53 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>INTERCONTINENTAL DISHES</p>
+              <p>CHOWSMART</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="baked jollof.jpeg"
+              alt="eatery"
+              width="350"
+              height="170"
+            />
+            <div class="rating">
+              <p class="rest-name">Flavour's Eatery</p>
+              <p>
+                4.34 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">43 - 53 mins</p>
+            </div>
+            <div class="int">
+              <p>FAST FOOD</p>
+              <p>AFRICAN</p>
+              <p>CHOWSMART</p>
+            </div>
+          </div>
+          <div>
+            <img src="sharwama.jpeg" alt="tasty" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Chris TastyFood</p>
+              <p>
+                4.51 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">9 - 19 mins</p>
+            </div>
+          </div>
+        </div>
+        <div class="cat">
+          <p style="font-size: 20px; font-family: sans-serif">Featured 🌟</p>
+        </div>
+        <div class="cat">
+          <div>
+            <img src="iya.jpeg" alt="Iya" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Iya Khalid(B N B restaurant)</p>
+              <p>
+                4.43 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int"><p>AFRICAN</p></div>
+          </div>
+          <div>
+            <img src="jollof.jpeg" alt="Foodlum" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Foodlum Restaurant</p>
+              <p>
+                4.51 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">29 - 39 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>FAST FOOD</p>
+              <p>BREAKFAST & SNACKS</p>
+            </div>
+          </div>
+          <div>
+            <img src="amala.jpeg" alt="amala" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Amala Palace</p>
+              <p>
+                4.85 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">29 - 39 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>VEGETABLES</p>
+              <p>LUNCH</p>
+            </div>
+          </div>
+          <div>
+            <img src="baked jollof.jpeg" alt="Tinu" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Tinu's Kitchen Bistro</p>
+              <p>
+                4.72 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">22 - 33 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>FOOD</p>
+              <p>LUNCH</p>
+            </div>
+          </div>
+          <div>
+            <img src="burger.jpeg" alt="kena" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Kena's Kitchen (LASU)</p>
+              <p>
+                4.50 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">12 - 22 mins</p>
+            </div>
+            <div class="int">
+              <p>BURGERS</p>
+              <p>SANDWISHES</p>
+              <p>WAFFLES</p>
+            </div>
+          </div>
+          <div>
+            <img src="snail.jpeg" alt="xwhy" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Xwhy Snails</p>
+              <p>
+                4.73 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">22 - 32 mins</p>
+            </div>
+            <div class="int">
+              <p>GRILLS</p>
+              <p>BISTRO</p>
+            </div>
+          </div>
+        </div>
+        <div class="cat">
+          <p style="font-size: 20px; font-family: sans-serif">Discounts</p>
+        </div>
+        <div class="cat">
+          <div>
+            <img src="pizza.jpeg" alt="pizza" width="350" height="170" />
+            <div class="rating">
+              <p class="rest-name">Domino's Pizza - LASU</p>
+              <p>
+                4.53 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">40 - 50 mins</p>
+            </div>
+            <div class="int"><p>PIZZA</p></div>
+          </div>
+        </div>
+        <div class="restaurant">
+          <p style="font-size: 20px">All Restaurants</p>
+        </div>
+        <div class="all-rest">
+          <div>
+            <img src="iya.jpeg" alt="Iya" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Iya Khalid(B N B restaurant)</p>
+              <p>
+                4.83 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">44 - 54 mins</p>
+            </div>
+            <div class="int"><p>AFRICAN</p></div>
+          </div>
+          <div>
+            <img src="sauce.jpeg" alt="sauce" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">The Caramelsauce</p>
+              <p>
+                4.54 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>INTERCONTINENTAL DISHES</p>
+              <p>CHOWSMART</p>
+            </div>
+          </div>
+          <div>
+            <img src="noodles.jpeg" alt="Ojo" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">LASPAG - Ojo</p>
+              <p>
+                4.82 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">16 - 26 mins</p>
+            </div>
+            <div class="int"><p>RESTAURANT</p></div>
+          </div>
+          <div>
+            <img src="lade.jpeg" alt="lade" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Lade</p>
+              <p>
+                4.65 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>INTERCONTINENTAL DISHES</p>
+              <p>CHOWSMART</p>
+            </div>
+          </div>
+          <div>
+            <img src="pizza.jpeg" alt="Domino" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Domino's Pizza - Lasu</p>
+              <p>
+                4.65 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">40 - 50 mins</p>
+            </div>
+            <div class="int"><p>PIZZA</p></div>
+          </div>
+          <div>
+            <img src="jollof.jpeg" alt="Foodlum" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Foodlum Restaurant</p>
+              <p>
+                4.55 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">29 - 39 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>FAST FOOD</p>
+              <p>BREAKFAST & SNACKS</p>
+            </div>
+          </div>
+          <div>
+            <img src="fried rice.jpeg" alt="cafe" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Hot Bread Cafe-Ojo</p>
+              <p>
+                4.86 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>INTERCONTINENTAL</p>
+              <p>CHOWSMART</p>
+            </div>
+          </div>
+          <div>
+            <img src="soup.jpeg" alt="lab" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Foodies lab</p>
+              <p>
+                4.51 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">6 - 16 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>MEAL</p>
+              <p>FAST FOOD</p>
+            </div>
+          </div>
+          <div>
+            <img src="shrimp rice" alt="PJ" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">PJ Foods</p>
+              <p>
+                4.64 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>INTERCONTINENTAL DISHES</p>
+              <p>PASTRIES</p>
+            </div>
+          </div>
+          <div>
+            <img src="burger.jpeg" alt="kena" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Kena's Kitchen (LASU)</p>
+              <p>
+                4.85 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">13 - 23 mins</p>
+            </div>
+            <div class="int">
+              <p>BURGERS</p>
+              <p>SANDWISHES</p>
+              <p>WAFFLES</p>
+            </div>
+          </div>
+          <div>
+            <img src="amala.jpeg" alt="amala" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">mala Palace</p>
+              <p>
+                4.71 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">29 - 39 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>VEGETABLES</p>
+              <p>LUNCH</p>
+            </div>
+          </div>
+          <div>
+            <img src="baked jollof.jpeg" alt="tinu" width="420" height="200" />
+            <div class="rating">
+              <p class="rest-name">Tinu's Kitchen Bistro</p>
+              <p>
+                4.78 <img src="star.svg" alt="star" width="20" height="20" />
+              </p>
+            </div>
+            <div class="duration">
+              <p class="time">
+                <img src="clock.svg" alt="time" width="20" height="20" />
+              </p>
+              <p class="time">22 - 32 mins</p>
+            </div>
+            <div class="int">
+              <p>AFRICAN</p>
+              <p>FOOD</p>
+              <p>LUNCH</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <p class="view-more"><button id="view">View more</button></p>
+    <footer>
+      <section class="footer">
+        <div class="chow-logo">
+          <p>
+            <img
+              src="chowdeck logo.png"
+              alt="chowdeck"
+              width="200"
+              height="30"
+            />
+          </p>
+          <div class="foot-flex">
+            <ul>
+              <li class="main-link">LOCATIONS</li>
+              <div>
+                <li>Weija-Gbewe</li>
+                <li>WARRI</li>
+                <li>NYSC CAMP IYANA IPAJA</li>
+                <li>Orchid Road</li>
+                <li>Apata</li>
+                <li>Nysc camp</li>
+              </div>
+            </ul>
+            <ul>
+              <li class="main-link">DOWNLOAD</li>
+              <div>
+                <li>Google Playstore</li>
+                <li>IOS App Store</li>
+              </div>
+            </ul>
+            <ul>
+              <li class="main-link" style="width: 100px; align-items: center">
+                GET HELP
+              </li>
+              <div><li>Email</li></div>
+            </ul>
+            <ul>
+              <li class="main-link">LEGAL</li>
+              <div>
+                <li>privacy policy</li>
+                <li>Term of use</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr style="border-bottom: 1px solid rgb(244, 241, 241)" />
+      <div class="last-part">
+        <div class="copy">
+          <p>
+            <img src="copyright.svg" alt="copyright" width="20" height="20" />
+          </p>
+          <p>2022, Chowdeck.</p>
+        </div>
+        <ul class="accounts">
+          <li>
+            <img src="facebook.svg" alt="facebook" width="30" height="30" />
+          </li>
+          <li>
+            <img src="instagram.svg" alt="insta" width="30" height="30" />
+          </li>
+          <li>
+            <img src="twitter.svg" alt="twitter" width="20" height="20" />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
